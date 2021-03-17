@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bet Game | Win with Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="Intro.css">
+</head>
+<body>
+    <div class="row-fluid">
+        <nav class="navbar navbar-expand-sm" style="background-color: #00174B;">
+            <a id="Logo" class="navbar-brand pl-5 p-2" href="Intro.html">
+                <img style="width: 120px;" src="/Images/Logo.png" alt="Logo">
+            </a>
+            <h6 id="Descriptor" style="color:white; line-height: 25px; padding-left: 10px; padding-top: 10px; font-family: 'Gilroy'">Bookmaker <br>
+                 Contour #1</h6>
+            <a id="icon1" href="https://www.instagram.com/diasnkteam/">
+                <img style="width:34px; " src="/Images/instagram.png" alt="instagram">
+            </a>
+            <a id="icon2" href="https://twitter.com/cristiano?lang=ru">
+                <img style="width:34px; " src="/Images/twitter.png" alt="twitter">
+            </a>
+            <a id="icon3" href="https://www.facebook.com/Cristiano">
+                <img style="width:34px; " src="/Images/facebook.png" alt="facebook">
+            </a>
+          </nav>
+        </div>
+    <div class="row-fluid">
+        <div class="row">  
+        <div class="col-md-5 d-grid col-sm-12" style="padding-top:9% ;padding-left:5%;">
+            <h1 id="Header" style=" font-size:50px; color: #00174B; font-family: 'Montserrat'; letter-spacing: 5%;">WIN THE GAME <br>
+                <span style="color:#3A3A3A;">WITH US</span> 
+            </h1>
+            <br>
+            <div class="row pl-3">
+                <div id="hr" class="col-md-1 mt-3" style="width: 33px; background-color: #00174B; height: 2px;"></div>
+                <div id="Description" class="col-md-11" style="font-family: 'Gilroy'; font-size: 20px;">Increase your chance of the victory by 10X. <br>
+                    Unique, guaranteed coefficients is <br>
+                    always here.
+                </div>
+            </div>
+
+            <a class="SignInLink">
+                <button id="myBtn" class="SignIn">
+                    SIGN IN
+                </button>
+            </a>
+            </div>
+        <div class="col-7">
+        <a href="leaders.html">
+          <img id="Intro_Pic" style="width: 110%; height: 658px; float: right;" src="/Images/Intro_Photo.png" alt="CR7">
+        </a>
+    
+        <div class="col-md-2 col-sm-12 textImage">Let’s watch <br>
+            current leaders of <br>
+            betting
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div style="display: grid; justify-content: center;" class="modal-header">
+        <h2>Sign In</h2>
+    </div>
+    <div style="display: grid; justify-content:right;" class="close">&times;</div>
+      <div class="modal-body">
+        <form method="POST" style="display: grid; justify-content: center;" action="Check_Account.php">
+            <br>
+            <input style="width: 500px;" class="form-control" type="text" name="login" placeholder="Enter login" id="input1">
+            <br>
+            <input style="width: 500px;" class="form-control" type="password" name="password" placeholder="Enter password" id="input1">
+            <br>
+            <input style="width: 500px;" class="form-control" type="date" name="date" id="input1">
+            <br>
+            <input style="width: 500px;" class="form-control buttonSubmit" type="submit" name="submitin" value="SIGN IN" id="input1">
+            <br>
+            <a style="display: grid; justify-content: center;" href="SignUp.html">Don't have an account?</a>
+            <br>
+        </form>
+      </div>
+    </div>
+  
+  </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+        
+</body>
+</html>

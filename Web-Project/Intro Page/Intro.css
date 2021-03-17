@@ -1,0 +1,196 @@
+.SignIn {
+    width: 246px;
+    height: 54px;
+    background: linear-gradient(180deg, #81C7F9 0%, #5098CB 100%);
+    box-shadow: inset 0px -3px 6px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    box-shadow: 0px 3px 1px #4D88B1;
+    margin-top: 48px;
+    color: white;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
+.SignIn:hover {
+    background: linear-gradient(180deg, #0090F8 0%, #5098CB 100%);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.textImage {
+    position: absolute;
+    bottom: 168px;
+    left: 1px;
+    font-family: 'Gilroy'; 
+    font-size: 12px; 
+    line-height: 20px;
+}
+
+@media(max-width:810px) {
+    #Intro_Pic {
+        display: none;
+    }
+
+    #Logo {
+        margin: 0 auto;
+    }
+
+    #Descriptor {
+        display: none;
+    }
+
+    #Header {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #Description {
+        font-size: 14px;
+        text-align: center;
+    }
+    #hr{
+        display: none;
+    }
+    .textImage{
+        display: none;
+    }
+    .SignInLink{
+        display: flex;
+        justify-content: center;
+    }
+    #icon1{
+        display: none;
+      }
+      #icon2{
+        display: none;
+      }
+      #icon3{
+        display: none;
+      }
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #00174B;
+    font-size: 33px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #00174B;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+
+  .buttonSubmit {
+    background: linear-gradient(180deg, #81C7F9 0%, #5098CB 100%);
+    box-shadow: inset 0px -3px 6px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    box-shadow: 0px 3px 1px #4D88B1;
+    color: white;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+  }
+
+  .buttonSubmit:hover {
+    background: linear-gradient(180deg, #0090F8 0%, #5098CB 100%);
+  }
+
+  .Sign_Up_header{
+    padding: 2px 16px;
+    background-color: #00174B;
+    color: white;
+  }
+
+  #icon1{
+    position: absolute;
+    top: 30px;
+    right:50px;
+  }
+  #icon2{
+    position: absolute;
+    top: 30px;
+    right:134px;
+  }
+  #icon3{
+    position: absolute;
+    top: 30px;
+    right:218px;
+  }
+
+  #icon1:hover{
+    box-shadow: inset 0px 0px 10px 5px #0090F8;
+    border-radius:7px;
+  }
+  #icon2:hover{
+    box-shadow: inset 0px 0px 10px 5px #0090F8;
+    border-radius:7px;  }
+  #icon3:hover{
+    box-shadow: inset 0px 0px 10px 5px #0090F8;
+    border-radius:7px;  }
+  
