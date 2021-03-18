@@ -1,0 +1,262 @@
+.LogOut {
+    width: 200.44px;
+    height: 44px;
+    background-color: white;
+    box-shadow: inset 0px -3px 6px rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    margin-top: 48px;
+    color: #3A3A3A;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    position: absolute;
+    top: -20px;
+    right:88px;
+}
+
+#text_logout{
+    text-decoration: none;
+}
+
+.Img_Back1 {
+    position: absolute;
+    width: 1773px;
+    height: 450px;
+    left: -237px;
+    top: 96px;
+    background-color: #00081C;
+}
+
+.Img_Back2 {
+    position: absolute;
+    width: 1773px;
+    height: 101px;
+    left: -237px;
+    top: 545px;
+    background-color: 00174B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.Img_Back2 h1 {
+    position: relative;
+    left: 130px;
+}
+
+.Bet_Back1{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 648px;
+    background-color: #E5F5FC;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.BB_Img1{
+    width: 26px;
+    margin-top: 13px;
+}
+
+.BB_Img2{
+    width: 26px;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+.Bet_Back2{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 700px;
+    background-color: #ffffff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.BB_Img3{
+    width: 26px;
+    margin-top: 19px;
+    margin-left: 0px;
+}
+
+.Bet1 {
+    position: relative;
+    width: 85px;
+    height: 41px;
+    left: 88px;
+    top: 26px;
+    background-color: #E5F5FC;
+    border-radius: 5px;
+}
+
+.Bet_Back3{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 805px;
+    background-color: #E5F5FC;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.BB_Img4{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.BB_Img5{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Bet_Back4{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 857px;
+    background-color: #ffffff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Bet_Back5{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 960px;
+    background-color: #E5F5FC;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.BB_Img6{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.BB_Img7{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Bet_Back6{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 1012px;
+    background-color: #ffffff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Bet_Back7{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 1115px;
+    background-color: #E5F5FC;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.BB_Img8{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.BB_Img9{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Bet_Back8{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 1167px;
+    background-color: #ffffff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+.Bet_Back9{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 1275px;
+    background-color: #E5F5FC;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.BB_Img10{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.BB_Img11{
+    width: 26px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.Bet_Back10{
+    position: absolute;
+    width: 1773px;
+    height: 52px;
+    left: -237px;
+    top: 1330px;
+    background-color: #ffffff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
